@@ -50,4 +50,4 @@ data = fetch_box_office(target_dt)
 # 4. 에러 및 예외 상황 처리하기
 if "error" in data:
     if data["error"] == "secret_missing":
-        st.error("🚨 스트림릿 비밀 금고(secrets)에 'KOBIS_
+        st.error("🚨 스트림릿 비밀 금고(secrets)에 'KOBIS_KEY'가 설정되어 있지 않습니다.")
